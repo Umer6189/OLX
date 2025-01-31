@@ -5,9 +5,12 @@
 }
 
 .main-container{
-    margin-left: 40px;
-    margin-right: 40px;
-    /* border: 1px solid green; */
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    border: 1px solid green;
 }
 
 .header-container{
@@ -207,7 +210,9 @@ h1 {
     width: 100vw;
     overflow-x: hidden;
   }
-  
+  .advert1{
+    width: 85vw;
+  }
   .buttons{
     /* display: flex; */
 
@@ -266,5 +271,25 @@ h1 {
 
     .tabs {
         flex-direction: column;
+    }
+
+    .advert1{
+        width: 90vw;
+    }
+
+    .advert2{
+        width: 90vw;
+    }
+
+    .row1{
+        flex-direction: column;
+    }
+
+    .row2{
+        flex-direction: column;
+    }
+
+    .left-margin{
+        margin-left: 0px;
     }
 }
